@@ -5,6 +5,7 @@ import NavBar from './components/Navbar'
 import Features from './components/Features'
 import FloatingImage from './components/Story'
 import Footer from './components/Footers'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About/>
       <Features/>
       <FloatingImage/>
+      <Contact/>
       <Footer/>
      </main>
   )
